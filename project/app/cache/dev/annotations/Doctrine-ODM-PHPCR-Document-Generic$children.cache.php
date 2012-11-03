@@ -1,0 +1,1 @@
+<?php return unserialize('a:1:{i:0;O:47:"Doctrine\\ODM\\PHPCR\\Mapping\\Annotations\\Children":3:{s:6:"filter";N;s:10:"fetchDepth";N;s:18:"ignoreUntranslated";b:1;}}');

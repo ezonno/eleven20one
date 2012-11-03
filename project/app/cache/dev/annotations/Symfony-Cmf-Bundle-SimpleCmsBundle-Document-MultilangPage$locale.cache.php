@@ -1,0 +1,1 @@
+<?php return unserialize('a:1:{i:0;O:45:"Doctrine\\ODM\\PHPCR\\Mapping\\Annotations\\Locale":0:{}}');

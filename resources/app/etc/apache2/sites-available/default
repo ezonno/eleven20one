@@ -1,0 +1,17 @@
+<VirtualHost *:80>
+        ServerAdmin webmaster@localhost
+
+        Servername eleven20one.lo
+        DocumentRoot /vagrant/project/web
+        <Directory /vagrant/project>
+            AllowOverride All
+        </Directory>
+
+        ErrorLog /vagrant/log/apache2/error.log
+
+        # Possible values include: debug, info, notice, warn, error, crit,
+        # alert, emerg.
+        LogLevel warn
+
+        CustomLog /vagrant/log/apache2/access.log combined
+</VirtualHost>
